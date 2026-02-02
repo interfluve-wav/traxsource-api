@@ -1,7 +1,6 @@
 source 'https://rubygems.org'
 ruby '>= 3.2.2'
 
-gem 'marcel', '>= 1.0'
 
 
 #git_source(:github) do |repo_name|
@@ -11,10 +10,7 @@ gem 'marcel', '>= 1.0'
 
 
 
-HEAD
-gem 'marcel', '>= 1.0'
 
-87ec4cd (Fix bundle for Ruby 3.4 and yanked mimemagic)
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3'
 # Use Puma as the app server
@@ -59,3 +55,7 @@ end
 
 # Fix yanked mimemagic
 gem 'marcel', '>= 1.0'
+
+gem "nio4r", ">= 2.7.0"
+
+gem "nokogiri", ">= 1.16.0"
