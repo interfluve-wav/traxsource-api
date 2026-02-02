@@ -10,11 +10,11 @@ gem 'marcel', '>= 1.0'
 #end
 
 
-<<<<<<< HEAD
-gem 'marcel', '>= 1.0'
-=======
 
->>>>>>> 87ec4cd (Fix bundle for Ruby 3.4 and yanked mimemagic)
+HEAD
+gem 'marcel', '>= 1.0'
+
+87ec4cd (Fix bundle for Ruby 3.4 and yanked mimemagic)
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3'
 # Use Puma as the app server
