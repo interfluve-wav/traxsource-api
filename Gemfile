@@ -1,13 +1,20 @@
 source 'https://rubygems.org'
 ruby '>= 3.2.2'
 
+gem 'marcel', '>= 1.0'
+
+
 #git_source(:github) do |repo_name|
   #repo_name = "#{repo_name}/#{repo_name}" unless repo_name.include?("/")
   #"https://github.com/#{repo_name}.git"
 #end
 
 
+<<<<<<< HEAD
 gem 'marcel', '>= 1.0'
+=======
+
+>>>>>>> 87ec4cd (Fix bundle for Ruby 3.4 and yanked mimemagic)
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3'
 # Use Puma as the app server
@@ -49,3 +56,6 @@ end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 #gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
+
+# Fix yanked mimemagic
+gem 'marcel', '>= 1.0'
