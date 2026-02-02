@@ -7,6 +7,7 @@ ruby '>= 3.2.2'
 #end
 
 
+gem 'marcel', '>= 1.0'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 6.0.3'
 # Use Puma as the app server
